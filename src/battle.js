@@ -7,10 +7,6 @@ class Battle {
         return this.player;
     }
 
-    // turn() {
-    //     return this.playerWeapon;
-    // }
-
     computerGuess = () => {
         let computerGs = Math.floor(Math.random() * 5);
 

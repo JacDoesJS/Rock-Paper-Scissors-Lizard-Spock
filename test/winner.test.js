@@ -1,7 +1,7 @@
 import { expect } from 'chai';
 import chai from 'chai';
 
-import server from '../server.js';
+import server from '../../server.js';
 import Player from '../src/player.js';
 
 describe(`testing weapon choices`, async () => {
